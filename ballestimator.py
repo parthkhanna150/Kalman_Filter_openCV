@@ -58,10 +58,10 @@ if __name__ == "__main__":
         # Capture frame-by-frame
         ret, frame = cap.read()
         
-        # t+=1
-        # t_list.append(t)
+        t+=1
+        t_list.append(t)
         
-        # print(x_list,t_list)
+        print(x_list,t_list)
         
         detect_ball(frame, x_list)
         # Display the resulting frame
